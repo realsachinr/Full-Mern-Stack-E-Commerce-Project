@@ -409,11 +409,12 @@ export default function Navigation() {
                           "aria-labelledby": "basic-button",
                         }}
                       >
-                        {/* <MenuItem >
-                          {auth.user?.role === "ROLE_ADMIN"
-                            ? "Admin Dashboard"
-                            : "My Orders"}
-                        </MenuItem> */}
+                        <MenuItem>
+                          Profile
+                        </MenuItem>
+                        <MenuItem >
+                          My Orders
+                        </MenuItem>
                         <MenuItem >Logout</MenuItem>
                       </Menu>
                     </div>
